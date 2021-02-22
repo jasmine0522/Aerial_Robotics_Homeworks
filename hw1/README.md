@@ -24,7 +24,6 @@ Define ros rate 100 Hz, duration for running the node will be 0.01 second.
 Once the node enter this session, while loop will keep running and return unless ros is shutdown.
 Function of KeyboardControl will be perform and "vel_msg" will publish through turtlesim_pub.
 You may check the publish topic rate which should be 100 Hz, by command ```rostopic hz /turtle1/cmd_vel```
-
 <img src="https://github.com/2020-Robotics-Aerial-Robots/Homework/blob/main/hw1/photo/week_1_3.png" width="80%" height="40%">
 
 KeyboardControl get keybroad command and you should implement switch to value of "vel_msg".
