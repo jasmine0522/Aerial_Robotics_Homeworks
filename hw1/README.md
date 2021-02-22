@@ -19,7 +19,7 @@ Ros node start from main, initialize ros node handler.
 
 Declare ros publisher as massage type "geometry_msgs::Twist" and topic name "/turtle1/cmd_vel".
 Define ros rate 100 Hz, duration for running the node will be 0.01 second.
-<img src="https://github.com/2020-Robotics-Aerial-Robots/Homework/blob/master/photo/week_1_2.png" width="80%" height="40%">
+<img src="https://github.com/2020-Robotics-Aerial-Robots/Homework/blob/main/hw1/photo/week_1_2.png" width="80%" height="40%">
 
 Once the node enter this session, while loop will keep running and return unless ros is shutdown.
 Function of KeyboardControl will be perform and "vel_msg" will publish through turtlesim_pub.
