@@ -11,8 +11,8 @@ Refer to http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%
 ### 指令
 ```
 	roscore
-	roslaunch week_1 turtle_setting.launch
-	rosrun week_1 hw1 
+	roslaunch hw1 turtle_setting.launch
+	rosrun hw1 hw1 
 ```
 Ros node start from main, initialize ros node handler.
 <img src="https://github.com/2020-Robotics-Aerial-Robots/Homework/blob/main/hw1/photo/week_1_1.png" width="80%" height="40%">
