@@ -9,8 +9,8 @@
 ### 指令
 ```
 	roscore
-	roslaunch week_1 turtle_setting.launch
-	rosrun HW2 hw2 
+	roslaunch hw1 turtle_setting.launch
+	rosrun hw2 hw2 
 ```
 ![image](https://github.com/2020-Robotics-Aerial-Robots/Homework/blob/main/hw2/photo/G3MrdXR.png)
 ---
