@@ -28,11 +28,11 @@ Matrix addition and subtraction can also be apply by + and -. \
 transform1 represent rotation of Z-axis in -90 and translation of X-axis in 1.  \
 transform2 represent rotation of Z-axis in 90 and translation of Y-axis in -1.  \
 <img src="https://github.com/Robotics-Aerial-Robots/Homework3/blob/master/Figures/rotation.png" width="50%" height="20%">
-<img src="https://github.com/Robotics-Aerial-Robots/Homework3/blob/master/Figures/1.png" width="80%" height="40%">
+<img src="https://github.com/2020-Robotics-Aerial-Robots/Homework/blob/main/hw3/Figures/1.png" width="80%" height="40%">
 
 Declare Eigen 3x1 Vector with each element as double. \
 Vector dot and cross operation are applied.
-<img src="https://github.com/Robotics-Aerial-Robots/Homework3/blob/master/Figures/2.png" width="80%" height="50%">
+<img src="https://github.com/2020-Robotics-Aerial-Robots/Homework/blob/main/hw3/Figures/2.png" width="80%" height="50%">
 
 Declare Eigen 3x3 Matrix and 3x1 Vector. \
 Bying apply block operation to Eigen 4x4 Matrix, we can obtain a sub-block. \
