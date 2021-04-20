@@ -23,7 +23,7 @@ Deadline: 4/13
 輸出 ``x(t)``(量測訊號) 為 位移  \
 <img src="https://github.com/2020-Robotics-Aerial-Robots/Homework/blob/main/hw6/Figures/images.png" width="40%" height="20%">
 
-<img src="https://github.com/Robotics-Aerial-Robots/Homework6/blob/master/Figures/%E5%BE%AE%E5%88%86.PNG" width="20%" height="10%">
+<img src="https://github.com/2020-Robotics-Aerial-Robots/Homework/blob/main/hw6/Figures/%E5%BE%AE%E5%88%86.PNG" width="20%" height="10%">
 使用上述形式可實作到你的code  
 
 ### PlotJuggler
