@@ -2,7 +2,6 @@
 # 108 年度 機器人學：多軸旋翼機 
 
 ### HW6
-Deadline: 4/13
 ---
 ## 題目
 請實踐從continuous-time的state space轉換到discrete-time的形式 \
