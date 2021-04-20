@@ -1,4 +1,4 @@
-![image](https://github.com/Robotics-Aerial-Robots/Homework6/blob/master/Figures/LOGO%20%E4%B8%AD%E8%8B%B1%E6%96%87%E6%A9%AB.png)
+![image](https://github.com/2020-Robotics-Aerial-Robots/Homework/blob/main/hw6/Figures/LOGO%20%E4%B8%AD%E8%8B%B1%E6%96%87%E6%A9%AB.png)
 # 108 年度 機器人學：多軸旋翼機 
 
 ### HW6
@@ -21,7 +21,7 @@ Deadline: 4/13
 假設輪子與平面無磨擦力干擾  \
 輸入 ``u`` 為unit step 訊號(力)
 輸出 ``x(t)``(量測訊號) 為 位移  \
-<img src="https://github.com/Robotics-Aerial-Robots/Homework6/blob/master/Figures/images.png" width="40%" height="20%">
+<img src="https://github.com/2020-Robotics-Aerial-Robots/Homework/blob/main/hw6/Figures/images.png" width="40%" height="20%">
 
 <img src="https://github.com/Robotics-Aerial-Robots/Homework6/blob/master/Figures/%E5%BE%AE%E5%88%86.PNG" width="20%" height="10%">
 使用上述形式可實作到你的code  
@@ -36,6 +36,6 @@ Deadline: 4/13
 用Kazam或其他可以錄螢幕畫面的軟體紀錄你的**動畫**, \
 ,**並將你的動畫影片連結附在你的Readme.md** \
 **或gif檔都可以** \
-<img src="https://github.com/Robotics-Aerial-Robots/Homework6/blob/master/Figures/plot.PNG" width="80%" height="40%">
+<img src="https://github.com/2020-Robotics-Aerial-Robots/Homework/blob/main/hw6/Figures/plot.PNG" width="80%" height="40%">
 
 
