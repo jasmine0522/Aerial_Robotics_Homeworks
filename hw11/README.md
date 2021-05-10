@@ -1,4 +1,4 @@
-![image](https://github.com/Robotics-Aerial-Robots/Homework6/blob/master/Figures/LOGO%20%E4%B8%AD%E8%8B%B1%E6%96%87%E6%A9%AB.png)
+![image](https://github.com/2020-Robotics-Aerial-Robots/Homework/blob/main/hw6/Figures/LOGO%20%E4%B8%AD%E8%8B%B1%E6%96%87%E6%A9%AB.png)
 # 108 年度 機器人學：多軸旋翼機 
 
 ### Homework11
@@ -13,9 +13,9 @@ Please complete the following two parts for this homework.
 
 Dynamic model:
 
-<img src= "https://github.com/Robotics-Aerial-Robots/Homework11/blob/master/photo/1.png" width="40%" height="20%">	
+<img src= "https://github.com/2020-Robotics-Aerial-Robots/Homework/blob/main/hw11/photo/1.png" width="40%" height="20%">	
 	
-<img src= "https://github.com/Robotics-Aerial-Robots/Homework11/blob/master/photo/11.png" width="90%" height="20%">
+<img src= "https://github.com/2020-Robotics-Aerial-Robots/Homework/blob/main/hw11/photo/11.png" width="90%" height="20%">
 
 
 Suppose that the car is equipped with a position sensor that measures its output y with an additive noise v, please find the state estimate (i.e., position, velocity, acceleration) and compare it with the true state.
