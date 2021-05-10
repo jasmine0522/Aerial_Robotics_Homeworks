@@ -22,7 +22,7 @@ Please read the cere_solver_tutorial1 code and know how to use ceress. You must 
 ---
 ### cere_solver_tutorial 2
 Please read the cere_solver_tutorial2 code and know how to use ceress library to solve below function.
-<img src="https://github.com/Robotics-Aerial-Robots/Homework8/blob/master/photo/week_11.png" width="40%" height="30%">	
+<img src="https://github.com/2020-Robotics-Aerial-Robots/Homework/blob/main/hw8/photo/week_11.png" width="40%" height="30%">	
 
 ---
 #### Reminders:	
