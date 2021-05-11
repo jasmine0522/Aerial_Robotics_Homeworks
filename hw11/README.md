@@ -30,5 +30,5 @@ The initial condition of the true state is x0=[0; 0; 0].
 ```
 
 ### Result
-<img src= "https://github.com/2020-Robotics-Aerial-Robots/Homework/blob/main/hw11/photo/result.png" width="90%" height="20%">
+<img src= "https://github.com/2020-Robotics-Aerial-Robots/Homework/blob/main/hw11/photo/result.png" width="40%" height="20%">
 
