@@ -24,4 +24,11 @@ The initial condition of the true state is x0=[0; 0; 0].
 ```
   roscore
   rosrun hw11 kf_test
+  
+  chmod +x produce_data1.py
+  rosrun hw11 produce_data1.py
 ```
+
+### Result
+<img src= "https://github.com/2020-Robotics-Aerial-Robots/Homework/blob/main/hw11/photo/result.png" width="90%" height="20%">
+
