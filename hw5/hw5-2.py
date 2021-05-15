@@ -30,8 +30,8 @@ for i in range(100):
         a_y=ay1[i,0]/norm
         a_z=az1[i,0]/norm
         #cost function=e
-        f1=-2*(q[1]*q[3]+q[2]*q[0])-a_x
-        f2=-2*(q[2]*q[3]-q[1]*q[0])-a_y
+        f1=-2*(q[1]*q[3]-q[2]*q[0])-a_x
+        f2=-2*(q[2]*q[3]+q[1]*q[0])-a_y
         f3=-1+2*(q[1]*q[1]+q[2]*q[2])-a_z
         f=np.array([f1,f2,f3])
         #Jacobian
