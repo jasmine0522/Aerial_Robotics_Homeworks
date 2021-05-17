@@ -19,6 +19,10 @@ Suppose that the car is equipped with a position sensor that measures its output
 ### Real data
 The initial condition of the true state is x0=[0; 0; 0].
 
+###  Reminder
+1. You should create a file named "output.csv".
+2. Replace the word "zhe_hui" in produce_data1.py with your own username.
+
 ### Instruction
 ```
   roscore
@@ -27,10 +31,6 @@ The initial condition of the true state is x0=[0; 0; 0].
   chmod +x produce_data1.py
   rosrun hw11 produce_data1.py
 ```
-
-:::warning
-sada
-:::
 
 ### Result
 <img src= "https://github.com/2020-Robotics-Aerial-Robots/Homework/blob/main/hw11/photo/result.png" width="40%" height="20%">
