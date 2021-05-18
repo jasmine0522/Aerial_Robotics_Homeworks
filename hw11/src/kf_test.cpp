@@ -68,7 +68,7 @@ int main(int argc, char **argv)
 
   std::ofstream in;
   //chage your path "home/ee405423/Desktop"
-  in.open("/home/ee405423/Desktop/data.csv",std::ios::out | std::ios::app);
+  in.open("/home/ncrl/robot_ws/src/Homework/hw11/src/data.csv",std::ios::out | std::ios::app);
   int len = answer.size();
   for(int i =0; i<len;i++)
   {
