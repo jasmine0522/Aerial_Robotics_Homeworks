@@ -20,8 +20,8 @@ Suppose that the car is equipped with a position sensor that measures its output
 The initial condition of the true state is x0=[0; 0; 0].
 
 ###  Reminder
-1. You should create a file named "output.csv".
-2. Replace the word "zhe_hui" in produce_data1.py with your own username.
+1. Replace the word "ncrl" in produce_data1.py and kf_test.cpp with your own username.
+2. The data.csv and output.cvs should be under the directory named src. 
 
 ### Instruction
 ```
