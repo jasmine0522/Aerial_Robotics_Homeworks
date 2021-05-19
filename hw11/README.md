@@ -22,6 +22,7 @@ The initial condition of the true state is x0=[0; 0; 0].
 ###  Reminder
 1. Replace the word "ncrl" in produce_data1.py and kf_test.cpp with your own username.
 2. The data.csv and output.cvs should be under the directory named src. 
+3. Everytime before you execute kf_test, you should remove the file "data.csv".
 
 ### Instruction
 ```
