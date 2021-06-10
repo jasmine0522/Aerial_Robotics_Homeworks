@@ -24,6 +24,9 @@ sudo ./install_geographiclib_datasets.sh
 
 
 ```
+## The code you should compensate
+1. Homework/finalproject/payload/src/ukf.cpp 中有標示 ？ 的地方。
+2. Homework/finalproject/ukf/src/ukf.cpp 中有標示 ？ 的地方。
 
 # Compiling
 download the package and put it into workspace and use `catkin_make` to build the package.
