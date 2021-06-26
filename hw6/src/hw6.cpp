@@ -5,18 +5,20 @@
 */
 #include "ros/ros.h"
 #include "std_msgs/Float64.h"
+#include <math.h>
 using namespace std;
-/*The dynamic system can be represented as "M*y_doubledot + b*y_dot + k*y = u ";
-* Control canonical form:
-* [x1_dot] = [0       1][x1] + [0]u;
-* [x2_dot] = [-k/M -b/M][x2] + [1]u;
-* x1 = y;
-* x2 = y_dot;
-* y = [1 0][x1];
-*          [x2];
-*/
+//The dynamic system can be represented as "M*y_doubledot + b*y_dot + k*y = u ";
+//Control canonical form:
+//M*y_doubledot + b*y_dot + k*y = u 
+//[x1_dot] = [0       1][x1] + [0]u;
+//[x2_dot] = [-k/M -b/M][x2] + [1]u;
+//x1 = y;
+//x2 = y_dot;
+//y = [1 0][x1];
+//         [x2];
 
-/*You may not use this struct! Depend on your demand*/
+
+//You may not use this struct! Depend on your demand
 struct Dynamic_State {
 	float last = 0;
 	float current = 0;
@@ -36,6 +38,7 @@ int main(int argc, char **argv)
 	ros::Rate loop_rate(10);
 	double past = ros::Time::now().toSec();
 	double dt;//sampling time
+	float x1_dot,x2_dot;
 	std_msgs::Float64 position;
 	/*Compute the position*/
 	while(ros::ok()) {
@@ -43,14 +46,19 @@ int main(int argc, char **argv)
 		/*Discrete-Time Linear State-Space*/
 		dt = now - past;
 
-		/*Following codes are implemented with numerical integration
-		 *x(k+1) = x(k) + x_dot * dt;
-		 *
-		 *Please implement your codes here.
-		 */
+		//Following codes are implemented with numerical integration
+		//x(k+1) = x(k) + x_dot * dt;
+		
+		 
+		x1_dot=x2.last;
+		x2_dot=(-k/M)*(x1.last)+(-b/M)*(x2.last)+u;
+		x1.current=x1.last+x1_dot*dt;
 
-		/*Current moment is last moment in the future*/
-		past = now;
+		 //Please implement your codes here.
+		 
+        
+		//Current moment is last moment in the future*/
+		past=now;
 		/*You can check the position data by PlotJuggler*/
 		position.data = x1.current; 
 		state_pub.publish(position);
